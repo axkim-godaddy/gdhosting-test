@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Basic GET endpoint
 app.get('/', (req, res) => {
-  res.json({ message: 'Here's a second update!', timestamp: new Date().toISOString() });
+  res.json({ message:  `Here's a second update!`, timestamp: new Date().toISOString() });
 });
 
 // Echo endpoint - returns what you send
